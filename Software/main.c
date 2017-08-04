@@ -110,15 +110,7 @@ uint8_t generateNumber(void) //Achtung: 0-basierend
 {
 	uint8_t number = 0;
 	
-	number = rand()%4;
-	
-	/*
-	do
-	{
-		number = rand();
-	}
-	while(number >= 4); //solange number >= 4, neue Zufallszahl erzeugen --> Zahl < 4 resultiert
-	*/	
+	number = rand()%4;	
 		
 	return number;
 }
